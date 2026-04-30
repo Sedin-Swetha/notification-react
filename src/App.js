@@ -1,13 +1,10 @@
 import "./styles.css";
-import { useState } from "react";
 import notifications from "./data/notifications";
 import NotificationCard from "./components/NotificationCard";
 import SearchBar from "./components/SearchBar";
 
 function App()
 {
-  const [hasSearched, setHasSearched] = useState(false);
-
   if(!notifications.length)
   {
     return <p>No notifications</p>;
@@ -20,7 +17,6 @@ function App()
    
       <SearchBar 
         notifications={notifications}
-        onSearchChange={(searched) => setHasSearched(searched)}
       />
 
    
