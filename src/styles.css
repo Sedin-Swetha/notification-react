@@ -1,0 +1,107 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+
+.card {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  margin: 12px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+.notification {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+.badge {
+  background-color: red;
+  color: white;
+  padding: 3px 8px;
+  margin-left: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.alert {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.alert.success {
+  color: green;
+}
+
+.alert.error {
+  color: red;
+}
+
+.alert.warning {
+  color: orange;
+}
+
+.alert.info {
+  color: blue;
+}
+
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.avatar-fallback {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+.app {
+  max-width: 500px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
